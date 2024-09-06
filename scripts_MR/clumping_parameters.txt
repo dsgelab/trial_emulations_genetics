@@ -1,0 +1,325 @@
+# BMI 
+plink \
+  --allow-no-sex \
+  --allow-extra-chr \
+  --bfile /home/ivm/Trial_Emulations_R12/MR/Sumstats/pfiles_hg38_human/all_hg38_plink_EUR_noDot \
+  --clump /home/ivm/Trial_Emulations_R12/MR/Sumstats/hg38/hg38_for_clumping/bmi_snp_p.txt \
+  --clump-snp-field SNP \
+  --clump-field P \
+  --clump-r2 0.001 \
+  --clump-p1 5e-08 \
+  --clump-p2 5e-08 \
+  --clump-kb 10000 \
+  --out /home/ivm/Trial_Emulations_R12/MR/Sumstats/hg38/hg38_clumped/bmi_hg38
+
+# make sure this file (--clump) contains only SNP and P (tab separated, with header and as .txt)
+
+
+# ALT
+plink \
+  --allow-no-sex \
+  --allow-extra-chr \
+  --bfile /home/ivm/Trial_Emulations_R12/MR/Sumstats/pfiles_hg38_human/all_hg38_plink_EUR_noDot \
+  --clump /home/ivm/Trial_Emulations_R12/MR/Sumstats/hg38/hg38_for_clumping/alt_snp_p.txt \
+  --clump-snp-field SNP \
+  --clump-field P \
+  --clump-r2 0.001 \
+  --clump-p1 5e-08 \
+  --clump-p2 5e-08 \
+  --clump-kb 10000 \
+  --out /home/ivm/Trial_Emulations_R12/MR/Sumstats/hg38/hg38_clumped/alt_hg38
+
+
+
+# LDL
+plink \
+  --allow-no-sex \
+  --allow-extra-chr \
+  --bfile /home/ivm/Trial_Emulations_R12/MR/Sumstats/pfiles_hg38_human/all_hg38_plink_EUR_noDot \
+  --clump /home/ivm/Trial_Emulations_R12/MR/Sumstats/hg38/hg38_for_clumping/ldl_snp_p.txt \
+  --clump-snp-field SNP \
+  --clump-field P \
+  --clump-r2 0.001 \
+  --clump-p1 5e-08 \
+  --clump-p2 5e-08 \
+  --clump-kb 10000 \
+  --out /home/ivm/Trial_Emulations_R12/MR/Sumstats/hg38/hg38_clumped/ldl_hg38
+
+
+# HDL
+plink \
+  --allow-no-sex \
+  --allow-extra-chr \
+  --bfile /home/ivm/Trial_Emulations_R12/MR/Sumstats/pfiles_hg38_human/all_hg38_plink_EUR_noDot \
+  --clump /home/ivm/Trial_Emulations_R12/MR/Sumstats/hg38/hg38_for_clumping/hdl_snp_p.txt \
+  --clump-snp-field SNP \
+  --clump-field P \
+  --clump-r2 0.001 \
+  --clump-p1 5e-08 \
+  --clump-p2 5e-08 \
+  --clump-kb 10000 \
+  --out /home/ivm/Trial_Emulations_R12/MR/Sumstats/hg38/hg38_clumped/hdl_hg38
+
+
+# Hba1c
+plink \
+  --allow-no-sex \
+  --allow-extra-chr \
+  --bfile /home/ivm/Trial_Emulations_R12/MR/Sumstats/pfiles_hg38_human/all_hg38_plink_EUR_noDot \
+  --clump /home/ivm/Trial_Emulations_R12/MR/Sumstats/hg38/hg38_for_clumping/hba1c_snp_p.txt \
+  --clump-snp-field SNP \
+  --clump-field P \
+  --clump-r2 0.001 \
+  --clump-p1 5e-08 \
+  --clump-p2 5e-08 \
+  --clump-kb 10000 \
+  --out /home/ivm/Trial_Emulations_R12/MR/Sumstats/hg38/hg38_clumped/hba1c_hg38
+
+
+# Asthma
+plink \
+  --allow-no-sex \
+  --allow-extra-chr \
+  --bfile /home/ivm/Trial_Emulations_R12/MR/Sumstats/pfiles_hg38_human/all_hg38_plink_EUR_noDot \
+  --clump /home/ivm/Trial_Emulations_R12/MR/Sumstats/hg38/hg38_for_clumping/asthma_snp_p.txt \
+  --clump-snp-field SNP \
+  --clump-field P \
+  --clump-r2 0.001 \
+  --clump-p1 5e-08 \
+  --clump-p2 5e-08 \
+  --clump-kb 10000 \
+  --out /home/ivm/Trial_Emulations_R12/MR/Sumstats/hg38/hg38_clumped/asthma_hg38
+
+
+# MDD
+plink \
+  --allow-no-sex \
+  --allow-extra-chr \
+  --bfile /home/ivm/Trial_Emulations_R12/MR/Sumstats/pfiles_hg38_human/all_hg38_plink_EUR_noDot \
+  --clump /home/ivm/Trial_Emulations_R12/MR/Sumstats/hg38/hg38_for_clumping/mdd_snp_p.txt \
+  --clump-snp-field SNP \
+  --clump-field P \
+  --clump-r2 0.001 \
+  --clump-p1 5e-08 \
+  --clump-p2 5e-08 \
+  --clump-kb 10000 \
+  --out /home/ivm/Trial_Emulations_R12/MR/Sumstats/hg38/hg38_clumped/mdd_hg38
+
+
+# EDU
+plink \
+  --allow-no-sex \
+  --allow-extra-chr \
+  --bfile /home/ivm/Trial_Emulations_R12/MR/Sumstats/pfiles_hg38_human/all_hg38_plink_EUR_noDot \
+  --clump /home/ivm/Trial_Emulations_R12/MR/Sumstats/hg38/hg38_for_clumping/edu_snp_p.txt \
+  --clump-snp-field SNP \
+  --clump-field P \
+  --clump-r2 0.001 \
+  --clump-p1 5e-08 \
+  --clump-p2 5e-08 \
+  --clump-kb 10000 \
+  --out /home/ivm/Trial_Emulations_R12/MR/Sumstats/hg38/hg38_clumped/edu_hg38
+
+
+# CAD
+plink \
+  --allow-no-sex \
+  --allow-extra-chr \
+  --bfile /home/ivm/Trial_Emulations_R12/MR/Sumstats/pfiles_hg38_human/all_hg38_plink_EUR_noDot \
+  --clump /home/ivm/Trial_Emulations_R12/MR/Sumstats/hg38/hg38_for_clumping/cad_snp_p.txt \
+  --clump-snp-field SNP \
+  --clump-field P \
+  --clump-r2 0.001 \
+  --clump-p1 5e-08 \
+  --clump-p2 5e-08 \
+  --clump-kb 10000 \
+  --out /home/ivm/Trial_Emulations_R12/MR/Sumstats/hg38/hg38_clumped/cad_hg38
+
+
+# CKD
+plink \
+  --allow-no-sex \
+  --allow-extra-chr \
+  --bfile /home/ivm/Trial_Emulations_R12/MR/Sumstats/pfiles_hg38_human/all_hg38_plink_EUR_noDot \
+  --clump /home/ivm/Trial_Emulations_R12/MR/Sumstats/hg38/hg38_for_clumping/ckd_snp_p.txt \
+  --clump-snp-field SNP \
+  --clump-field P \
+  --clump-r2 0.001 \
+  --clump-p1 5e-08 \
+  --clump-p2 5e-08 \
+  --clump-kb 10000 \
+  --out /home/ivm/Trial_Emulations_R12/MR/Sumstats/hg38/hg38_clumped/ckd_hg38
+
+
+# T2D
+plink \
+  --allow-no-sex \
+  --allow-extra-chr \
+  --bfile /home/ivm/Trial_Emulations_R12/MR/Sumstats/pfiles_hg38_human/all_hg38_plink_EUR_noDot \
+  --clump /home/ivm/Trial_Emulations_R12/MR/Sumstats/hg38/hg38_for_clumping/t2d_snp_p.txt \
+  --clump-snp-field SNP \
+  --clump-field P \
+  --clump-r2 0.001 \
+  --clump-p1 5e-08 \
+  --clump-p2 5e-08 \
+  --clump-kb 10000 \
+  --out /home/ivm/Trial_Emulations_R12/MR/Sumstats/hg38/hg38_clumped/t2d_hg38
+
+
+
+#### other:
+
+# HF
+plink \
+  --allow-no-sex \
+  --allow-extra-chr \
+  --bfile /home/ivm/Trial_Emulations_R12/MR/Sumstats/pfiles_hg38_human/all_hg38_plink_EUR_noDot \
+  --clump /home/ivm/Trial_Emulations_R12/MR/Sumstats/hg38/hg38_for_clumping/hf_snp_p.txt \
+  --clump-snp-field SNP \
+  --clump-field P \
+  --clump-r2 0.001 \
+  --clump-p1 5e-08 \
+  --clump-p2 5e-08 \
+  --clump-kb 10000 \
+  --out /home/ivm/Trial_Emulations_R12/MR/Sumstats/hg38/hg38_clumped/hf_hg38
+
+
+# TG
+plink \
+  --allow-no-sex \
+  --allow-extra-chr \
+  --bfile /home/ivm/Trial_Emulations_R12/MR/Sumstats/pfiles_hg38_human/all_hg38_plink_EUR_noDot \
+  --clump /home/ivm/Trial_Emulations_R12/MR/Sumstats/hg38/hg38_for_clumping/tg_snp_p.txt \
+  --clump-snp-field SNP \
+  --clump-field P \
+  --clump-r2 0.001 \
+  --clump-p1 5e-08 \
+  --clump-p2 5e-08 \
+  --clump-kb 10000 \
+  --out /home/ivm/Trial_Emulations_R12/MR/Sumstats/hg38/hg38_clumped/tg_hg38
+
+
+# TG2
+plink \
+  --allow-no-sex \
+  --allow-extra-chr \
+  --bfile /home/ivm/Trial_Emulations_R12/MR/Sumstats/pfiles_hg38_human/all_hg38_plink_EUR_noDot \
+  --clump /home/ivm/Trial_Emulations_R12/MR/Sumstats/hg38/hg38_for_clumping/tg2_snp_p.txt \
+  --clump-snp-field SNP \
+  --clump-field P \
+  --clump-r2 0.001 \
+  --clump-p1 5e-08 \
+  --clump-p2 5e-08 \
+  --clump-kb 10000 \
+  --out /home/ivm/Trial_Emulations_R12/MR/Sumstats/hg38/hg38_clumped/tg2_hg38
+
+
+# SAH
+plink \
+  --allow-no-sex \
+  --allow-extra-chr \
+  --bfile /home/ivm/Trial_Emulations_R12/MR/Sumstats/pfiles_hg38_human/all_hg38_plink_EUR_noDot \
+  --clump /home/ivm/Trial_Emulations_R12/MR/Sumstats/hg38/hg38_for_clumping/sah_snp_p.txt \
+  --clump-snp-field SNP \
+  --clump-field P \
+  --clump-r2 0.001 \
+  --clump-p1 5e-08 \
+  --clump-p2 5e-08 \
+  --clump-kb 10000 \
+  --out /home/ivm/Trial_Emulations_R12/MR/Sumstats/hg38/hg38_clumped/sah_hg38
+
+
+# SBP
+plink \
+  --allow-no-sex \
+  --allow-extra-chr \
+  --bfile /home/ivm/Trial_Emulations_R12/MR/Sumstats/pfiles_hg38_human/all_hg38_plink_EUR_noDot \
+  --clump /home/ivm/Trial_Emulations_R12/MR/Sumstats/hg38/hg38_for_clumping/sbp_snp_p.txt \
+  --clump-snp-field SNP \
+  --clump-field P \
+  --clump-r2 0.001 \
+  --clump-p1 5e-08 \
+  --clump-p2 5e-08 \
+  --clump-kb 10000 \
+  --out /home/ivm/Trial_Emulations_R12/MR/Sumstats/hg38/hg38_clumped/sbp_hg38
+
+
+# LIV
+plink \
+  --allow-no-sex \
+  --allow-extra-chr \
+  --bfile /home/ivm/Trial_Emulations_R12/MR/Sumstats/pfiles_hg38_human/all_hg38_plink_EUR_noDot \
+  --clump /home/ivm/Trial_Emulations_R12/MR/Sumstats/hg38/hg38_for_clumping/liv_snp_p.txt \
+  --clump-snp-field SNP \
+  --clump-field P \
+  --clump-r2 0.001 \
+  --clump-p1 5e-08 \
+  --clump-p2 5e-08 \
+  --clump-kb 10000 \
+  --out /home/ivm/Trial_Emulations_R12/MR/Sumstats/hg38/hg38_clumped/liv_hg38
+
+
+# Stroke
+plink \
+  --allow-no-sex \
+  --allow-extra-chr \
+  --bfile /home/ivm/Trial_Emulations_R12/MR/Sumstats/pfiles_hg38_human/all_hg38_plink_EUR_noDot \
+  --clump /home/ivm/Trial_Emulations_R12/MR/Sumstats/hg38/hg38_for_clumping/stroke_snp_p.txt \
+  --clump-snp-field SNP \
+  --clump-field P \
+  --clump-r2 0.001 \
+  --clump-p1 5e-08 \
+  --clump-p2 5e-08 \
+  --clump-kb 10000 \
+  --out /home/ivm/Trial_Emulations_R12/MR/Sumstats/hg38/hg38_clumped/stroke_hg38
+
+
+# CRP
+plink \
+  --allow-no-sex \
+  --allow-extra-chr \
+  --bfile /home/ivm/Trial_Emulations_R12/MR/Sumstats/pfiles_hg38_human/all_hg38_plink_EUR_noDot \
+  --clump /home/ivm/Trial_Emulations_R12/MR/Sumstats/hg38/hg38_for_clumping/crp_snp_p.txt \
+  --clump-snp-field SNP \
+  --clump-field P \
+  --clump-r2 0.001 \
+  --clump-p1 5e-08 \
+  --clump-p2 5e-08 \
+  --clump-kb 10000 \
+  --out /home/ivm/Trial_Emulations_R12/MR/Sumstats/hg38/hg38_clumped/crp_hg38
+
+
+# AST
+plink \
+  --allow-no-sex \
+  --allow-extra-chr \
+  --bfile /home/ivm/Trial_Emulations_R12/MR/Sumstats/pfiles_hg38_human/all_hg38_plink_EUR_noDot \
+  --clump /home/ivm/Trial_Emulations_R12/MR/Sumstats/hg38/hg38_for_clumping/ast_snp_p.txt \
+  --clump-snp-field SNP \
+  --clump-field P \
+  --clump-r2 0.001 \
+  --clump-p1 5e-08 \
+  --clump-p2 5e-08 \
+  --clump-kb 10000 \
+  --out /home/ivm/Trial_Emulations_R12/MR/Sumstats/hg38/hg38_clumped/ast_hg38
+
+
+# AF
+plink \
+  --allow-no-sex \
+  --allow-extra-chr \
+  --bfile /home/ivm/Trial_Emulations_R12/MR/Sumstats/pfiles_hg38_human/all_hg38_plink_EUR_noDot \
+  --clump /home/ivm/Trial_Emulations_R12/MR/Sumstats/hg38/hg38_for_clumping/af_snp_p.txt \
+  --clump-snp-field SNP \
+  --clump-field P \
+  --clump-r2 0.001 \
+  --clump-p1 5e-08 \
+  --clump-p2 5e-08 \
+  --clump-kb 10000 \
+  --out /home/ivm/Trial_Emulations_R12/MR/Sumstats/hg38/hg38_clumped/af_hg38
+
+
+
+
+
+
